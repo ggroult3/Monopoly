@@ -13,7 +13,7 @@ Window {
         y: 220
         width: 639
         height: 639
-        color: "#ffffff"
+        color: "#dae9d4"
         border.width: 1
 
         Rectangle {
@@ -22,7 +22,7 @@ Window {
             y: 549
             width: 90
             height: 90
-            color: "#ffffff"
+            color: "#dae9d4"
             border.width: 1
         }
 
@@ -32,8 +32,22 @@ Window {
             y: 0
             width: 90
             height: 90
-            color: "#ffffff"
+            color: "#dae9d4"
             border.width: 1
+
+            Rectangle {
+                id: rectangle5
+                x: 24
+                y: 25
+                width: 58
+                height: 58
+                color: "#f59002"
+                border.width: 1
+                anchors.right: parent.right
+                anchors.rightMargin: 0
+                anchors.bottom: parent.bottom
+                anchors.bottomMargin: 0
+            }
         }
 
         Rectangle {
@@ -42,7 +56,7 @@ Window {
             y: 0
             width: 90
             height: 90
-            color: "#ffffff"
+            color: "#dae9d4"
             border.width: 1
         }
 
@@ -52,7 +66,7 @@ Window {
             y: 549
             width: 90
             height: 90
-            color: "#ffffff"
+            color: "#dae9d4"
             border.width: 1
         }
 
@@ -72,12 +86,12 @@ Window {
                 y: 0
                 width: 51
                 height: 90
-                color: "#ffffff"
+                color: "#dae9d4"
                 Rectangle {
                     id: rectangle17
                     y: 50
                     height: 19
-                    color: "#ffffff"
+                    color: "#0168b3"
                     anchors.bottom: parent.bottom
                     anchors.left: parent.left
                     anchors.leftMargin: 0
@@ -95,7 +109,7 @@ Window {
                 y: 0
                 width: 51
                 height: 90
-                color: "#ffffff"
+                color: "#dae9d4"
                 border.width: 1
             }
 
@@ -105,12 +119,12 @@ Window {
                 y: 0
                 width: 51
                 height: 90
-                color: "#ffffff"
+                color: "#dae9d4"
                 Rectangle {
                     id: rectangle13
                     y: 50
                     height: 19
-                    color: "#ffffff"
+                    color: "#0168b3"
                     anchors.bottom: parent.bottom
                     anchors.left: parent.left
                     anchors.leftMargin: 0
@@ -128,7 +142,7 @@ Window {
                 y: 0
                 width: 51
                 height: 90
-                color: "#ffffff"
+                color: "#dae9d4"
                 border.width: 1
             }
 
@@ -138,7 +152,7 @@ Window {
                 y: 0
                 width: 51
                 height: 90
-                color: "#ffffff"
+                color: "#dae9d4"
                 border.width: 1
             }
 
@@ -148,12 +162,12 @@ Window {
                 y: 0
                 width: 51
                 height: 90
-                color: "#ffffff"
+                color: "#dae9d4"
                 Rectangle {
                     id: rectangle7
                     y: 50
                     height: 19
-                    color: "#ffffff"
+                    color: "#1fa64a"
                     anchors.bottom: parent.bottom
                     anchors.left: parent.left
                     anchors.leftMargin: 0
@@ -171,7 +185,7 @@ Window {
                 y: 0
                 width: 51
                 height: 90
-                color: "#ffffff"
+                color: "#dae9d4"
                 border.width: 1
             }
 
@@ -181,12 +195,12 @@ Window {
                 y: 0
                 width: 51
                 height: 90
-                color: "#ffffff"
+                color: "#dae9d4"
                 Rectangle {
                     id: rectangle3
                     y: 50
                     height: 19
-                    color: "#ffffff"
+                    color: "#1fa64a"
                     anchors.bottom: parent.bottom
                     anchors.left: parent.left
                     anchors.leftMargin: 0
@@ -204,14 +218,14 @@ Window {
                 y: 0
                 width: 51
                 height: 90
-                color: "#ffffff"
+                color: "#dae9d4"
                 border.width: 1
 
                 Rectangle {
                     id: rectangle1
                     y: 50
                     height: 19
-                    color: "#ffffff"
+                    color: "#1fa64a"
                     anchors.right: parent.right
                     anchors.rightMargin: 0
                     anchors.left: parent.left
@@ -244,12 +258,12 @@ Window {
                 y: 0
                 width: 51
                 height: 90
-                color: "#ffffff"
+                color: "#dae9d4"
                 Rectangle {
                     id: rectangle40
                     y: 50
                     height: 19
-                    color: "#ffffff"
+                    color: "#f59002"
                     anchors.bottom: parent.bottom
                     anchors.left: parent.left
                     anchors.leftMargin: 0
@@ -267,12 +281,12 @@ Window {
                 y: 0
                 width: 51
                 height: 90
-                color: "#ffffff"
+                color: "#dae9d4"
                 Rectangle {
                     id: rectangle42
                     y: 50
                     height: 19
-                    color: "#ffffff"
+                    color: "#f59002"
                     anchors.bottom: parent.bottom
                     anchors.left: parent.left
                     anchors.leftMargin: 0
@@ -290,7 +304,7 @@ Window {
                 y: 0
                 width: 51
                 height: 90
-                color: "#ffffff"
+                color: "#dae9d4"
                 border.width: 1
             }
 
@@ -300,12 +314,12 @@ Window {
                 y: 0
                 width: 51
                 height: 90
-                color: "#ffffff"
+                color: "#dae9d4"
                 Rectangle {
                     id: rectangle46
                     y: 50
                     height: 19
-                    color: "#ffffff"
+                    color: "#f59002"
                     anchors.bottom: parent.bottom
                     anchors.left: parent.left
                     anchors.leftMargin: 0
@@ -323,7 +337,7 @@ Window {
                 y: 0
                 width: 51
                 height: 90
-                color: "#ffffff"
+                color: "#dae9d4"
                 border.width: 1
             }
 
@@ -333,12 +347,12 @@ Window {
                 y: 0
                 width: 51
                 height: 90
-                color: "#ffffff"
+                color: "#dae9d4"
                 Rectangle {
                     id: rectangle50
                     y: 50
                     height: 19
-                    color: "#ffffff"
+                    color: "#d52e86"
                     anchors.bottom: parent.bottom
                     anchors.left: parent.left
                     anchors.leftMargin: 0
@@ -356,12 +370,12 @@ Window {
                 y: 0
                 width: 51
                 height: 90
-                color: "#ffffff"
+                color: "#dae9d4"
                 Rectangle {
                     id: rectangle52
                     y: 50
                     height: 19
-                    color: "#ffffff"
+                    color: "#d52e86"
                     anchors.bottom: parent.bottom
                     anchors.left: parent.left
                     anchors.leftMargin: 0
@@ -379,7 +393,7 @@ Window {
                 y: 0
                 width: 51
                 height: 90
-                color: "#ffffff"
+                color: "#dae9d4"
                 border.width: 1
             }
 
@@ -389,12 +403,12 @@ Window {
                 y: 0
                 width: 51
                 height: 90
-                color: "#ffffff"
+                color: "#dae9d4"
                 Rectangle {
                     id: rectangle56
                     y: 50
                     height: 19
-                    color: "#ffffff"
+                    color: "#d52e86"
                     anchors.bottom: parent.bottom
                     anchors.left: parent.left
                     anchors.leftMargin: 0
@@ -422,7 +436,7 @@ Window {
                 y: 0
                 width: 90
                 height: 51
-                color: "#ffffff"
+                color: "#dae9d4"
                 anchors.left: parent.left
                 anchors.leftMargin: 0
                 anchors.right: parent.right
@@ -433,7 +447,7 @@ Window {
                     id: rectangle20
                     x: 70
                     width: 19
-                    color: "#ffffff"
+                    color: "#bae4fa"
                     border.width: 1
                     anchors.right: parent.right
                     anchors.rightMargin: 0
@@ -450,14 +464,14 @@ Window {
                 y: 51
                 width: 90
                 height: 51
-                color: "#ffffff"
+                color: "#dae9d4"
                 anchors.left: parent.left
                 anchors.leftMargin: 0
                 Rectangle {
                     id: rectangle22
                     x: 70
                     width: 19
-                    color: "#ffffff"
+                    color: "#bae4fa"
                     anchors.top: parent.top
                     anchors.bottom: parent.bottom
                     anchors.topMargin: 0
@@ -477,7 +491,7 @@ Window {
                 y: 102
                 width: 90
                 height: 51
-                color: "#ffffff"
+                color: "#dae9d4"
                 anchors.left: parent.left
                 anchors.leftMargin: 0
                 anchors.right: parent.right
@@ -491,14 +505,14 @@ Window {
                 y: 153
                 width: 90
                 height: 51
-                color: "#ffffff"
+                color: "#dae9d4"
                 anchors.left: parent.left
                 anchors.leftMargin: 0
                 Rectangle {
                     id: rectangle26
                     x: 70
                     width: 19
-                    color: "#ffffff"
+                    color: "#bae4fa"
                     anchors.top: parent.top
                     anchors.bottom: parent.bottom
                     anchors.topMargin: 0
@@ -518,7 +532,7 @@ Window {
                 y: 204
                 width: 90
                 height: 51
-                color: "#ffffff"
+                color: "#dae9d4"
                 anchors.left: parent.left
                 anchors.leftMargin: 0
                 anchors.right: parent.right
@@ -532,7 +546,7 @@ Window {
                 y: 255
                 width: 90
                 height: 51
-                color: "#ffffff"
+                color: "#dae9d4"
                 anchors.left: parent.left
                 anchors.leftMargin: 0
                 anchors.right: parent.right
@@ -546,14 +560,14 @@ Window {
                 y: 306
                 width: 90
                 height: 51
-                color: "#ffffff"
+                color: "#dae9d4"
                 anchors.left: parent.left
                 anchors.leftMargin: 0
                 Rectangle {
                     id: rectangle32
                     x: 70
                     width: 19
-                    color: "#ffffff"
+                    color: "#944828"
                     anchors.top: parent.top
                     anchors.bottom: parent.bottom
                     anchors.topMargin: 0
@@ -573,7 +587,7 @@ Window {
                 y: 357
                 width: 90
                 height: 51
-                color: "#ffffff"
+                color: "#dae9d4"
                 anchors.left: parent.left
                 anchors.leftMargin: 0
                 anchors.right: parent.right
@@ -587,14 +601,14 @@ Window {
                 y: 408
                 width: 90
                 height: 51
-                color: "#ffffff"
+                color: "#dae9d4"
                 anchors.left: parent.left
                 anchors.leftMargin: 0
                 Rectangle {
                     id: rectangle36
                     x: 70
                     width: 19
-                    color: "#ffffff"
+                    color: "#944828"
                     anchors.top: parent.top
                     anchors.bottom: parent.bottom
                     anchors.topMargin: 0
@@ -622,14 +636,14 @@ Window {
                 y: 0
                 width: 90
                 height: 51
-                color: "#ffffff"
+                color: "#dae9d4"
                 anchors.left: parent.left
                 anchors.leftMargin: 0
                 Rectangle {
                     id: rectangle37
                     x: 70
                     width: 19
-                    color: "#ffffff"
+                    color: "#fded04"
                     anchors.top: parent.top
                     anchors.bottom: parent.bottom
                     anchors.topMargin: 0
@@ -649,7 +663,7 @@ Window {
                 y: 51
                 width: 90
                 height: 51
-                color: "#ffffff"
+                color: "#dae9d4"
                 anchors.left: parent.left
                 anchors.leftMargin: 0
                 anchors.right: parent.right
@@ -663,14 +677,14 @@ Window {
                 y: 102
                 width: 90
                 height: 51
-                color: "#ffffff"
+                color: "#dae9d4"
                 anchors.left: parent.left
                 anchors.leftMargin: 0
                 Rectangle {
                     id: rectangle59
                     x: 70
                     width: 19
-                    color: "#ffffff"
+                    color: "#fded04"
                     anchors.top: parent.top
                     anchors.bottom: parent.bottom
                     anchors.topMargin: 0
@@ -690,14 +704,14 @@ Window {
                 y: 153
                 width: 90
                 height: 51
-                color: "#ffffff"
+                color: "#dae9d4"
                 anchors.left: parent.left
                 anchors.leftMargin: 0
                 Rectangle {
                     id: rectangle61
                     x: 70
                     width: 19
-                    color: "#ffffff"
+                    color: "#fded04"
                     anchors.top: parent.top
                     anchors.bottom: parent.bottom
                     anchors.topMargin: 0
@@ -717,7 +731,7 @@ Window {
                 y: 204
                 width: 90
                 height: 51
-                color: "#ffffff"
+                color: "#dae9d4"
                 anchors.left: parent.left
                 anchors.leftMargin: 0
                 anchors.right: parent.right
@@ -731,14 +745,14 @@ Window {
                 y: 255
                 width: 90
                 height: 51
-                color: "#ffffff"
+                color: "#dae9d4"
                 anchors.left: parent.left
                 anchors.leftMargin: 0
                 Rectangle {
                     id: rectangle65
                     x: 70
                     width: 19
-                    color: "#ffffff"
+                    color: "#e30011"
                     anchors.top: parent.top
                     anchors.bottom: parent.bottom
                     anchors.topMargin: 0
@@ -758,14 +772,14 @@ Window {
                 y: 306
                 width: 90
                 height: 51
-                color: "#ffffff"
+                color: "#dae9d4"
                 anchors.left: parent.left
                 anchors.leftMargin: 0
                 Rectangle {
                     id: rectangle67
                     x: 70
                     width: 19
-                    color: "#ffffff"
+                    color: "#e30011"
                     anchors.top: parent.top
                     anchors.bottom: parent.bottom
                     anchors.topMargin: 0
@@ -785,7 +799,7 @@ Window {
                 y: 357
                 width: 90
                 height: 51
-                color: "#ffffff"
+                color: "#dae9d4"
                 anchors.left: parent.left
                 anchors.leftMargin: 0
                 anchors.right: parent.right
@@ -799,14 +813,14 @@ Window {
                 y: 408
                 width: 90
                 height: 51
-                color: "#ffffff"
+                color: "#dae9d4"
                 anchors.left: parent.left
                 anchors.leftMargin: 0
                 Rectangle {
                     id: rectangle71
                     x: 70
                     width: 19
-                    color: "#ffffff"
+                    color: "#e30011"
                     anchors.top: parent.top
                     anchors.bottom: parent.bottom
                     anchors.topMargin: 0
