@@ -8,6 +8,13 @@ class Joueur
 {
 public:
     Joueur();
+    void Init(int i);
+    void setArgent(int money);
+    void setPosition(int pos);
+    void setPrenom(string name);
+    string getPrenom();
+    int getArgent();
+    int getPosition();
     void Print();
 private:
     int id;
