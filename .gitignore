@@ -72,3 +72,4 @@ Thumbs.db
 *.exe
 
 build-Monopoly-Desktop_Qt_5_12_0_MinGW_64_bit-Debug/.qmake.stash
+*.JPG
