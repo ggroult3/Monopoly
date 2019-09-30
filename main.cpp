@@ -1,5 +1,6 @@
 #include <iostream>
 #include <joueur.h>
+#include <propriete.h>
 
 using namespace std;
 
@@ -9,6 +10,10 @@ int main()
 
     Joueur player;
     player.Print();
+
+    Propriete rueDeLaPaix;
+    rueDeLaPaix.Print();
+
 
     cout << "Fin du programme " << endl;
 

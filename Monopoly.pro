@@ -5,7 +5,9 @@ CONFIG -= qt
 
 SOURCES += \
         main.cpp \
-    joueur.cpp
+    joueur.cpp \
+    propriete.cpp
 
 HEADERS += \
-    joueur.h
+    joueur.h \
+    propriete.h
