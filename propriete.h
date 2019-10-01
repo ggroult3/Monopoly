@@ -10,6 +10,10 @@ class Propriete
 public:
     Propriete();
     void Print();
+    int getId();
+    string getNom();
+    int getPrix();
+    int getLoyer(int nb_maisons);
 
 private:
     int id;
