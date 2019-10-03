@@ -22,8 +22,8 @@ Jeu::Jeu():
 
 void Jeu::Print()
 {
-    cout << "Position du Joueur 1 sur 10 tours" << endl << endl;
-    for (int i = 0 ; i < 10 ; i++)
+    cout << "Position du Joueur 1 sur 30 tours" << endl << endl;
+    for (int i = 0 ; i < 30 ; i++)
     {
         deplacerJoueur(j1);
         cout << "Le de 1 vaut " << de1 << endl;
@@ -45,5 +45,12 @@ void Jeu::lancerDes()
 void Jeu::deplacerJoueur(Joueur &player)
 {
     lancerDes();
-    player.setPosition(player.getPosition() + de1 + de2);
+    int newPosition = player.getPosition() + de1 + de2;
+    if (newPosition >= 40)
+    {
+        newPosition = newPosition - 40;
+        player.setArgent(player.getArgent() + 200);
+        cout << "Le joueur " << player.getId() << " touche 200 euros. Il a maintenant " << player.getArgent() << " euros sur son compte." << endl;
+    }
+    player.setPosition(newPosition);
 }
