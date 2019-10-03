@@ -16,6 +16,7 @@ public:
     string getPrenom();
     int getArgent();
     int getPosition();
+    int getId();
     void Print();
 private:
     int id;

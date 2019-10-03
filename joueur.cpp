@@ -52,6 +52,11 @@ int Joueur::getPosition()
     return position;
 }
 
+int Joueur::getId()
+{
+    return id;
+}
+
 void Joueur::Print()
 {
     cout << "---------------- Presentaion de joueur ---------------" << endl << endl;
