@@ -8,6 +8,7 @@ class Joueur
 {
 public:
     Joueur();
+    Joueur(int i);
     void Init(int i);
     void setArgent(int money);
     void setPosition(int pos);

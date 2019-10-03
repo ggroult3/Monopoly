@@ -3,14 +3,19 @@
 
 Joueur::Joueur()
 {
-    Init(1);
+    Init(0);
+}
+
+Joueur::Joueur(int i)
+{
+    Init(i);
 }
 
 void Joueur::Init(int i)
 {
     string a;
     id = i;
-    cout << "Comment vous appelez-vous ? : ";
+    cout << "Joueur " << id <<",comment vous appelez-vous ? : ";
     cin >> a;
     setPrenom(a);
     setArgent(1500);
@@ -49,7 +54,9 @@ int Joueur::getPosition()
 
 void Joueur::Print()
 {
+    cout << "---------------- Presentaion de joueur ---------------" << endl << endl;
+    cout << "Vous etes le joueur " << id << endl;
     cout << "Vous vous appelez " << prenom << endl;
     cout << "Vous avez " << argent << " euros sur votre compte" << endl;
-    cout << "Vous vous trouvez sur la case numero " << position << endl;
+    cout << "Vous vous trouvez sur la case numero " << position << endl << endl;
 }

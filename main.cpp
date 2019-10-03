@@ -1,6 +1,5 @@
 #include <iostream>
-#include <joueur.h>
-#include <propriete.h>
+#include <jeu.h>
 
 using namespace std;
 
@@ -8,11 +7,8 @@ int main()
 {
     cout << "Hello World!" << endl;
 
-    Joueur player;
-    player.Print();
-
-    Propriete rueDeLaPaix;
-    rueDeLaPaix.Print();
+    Jeu game;
+    game.Print();
 
 
     cout << "Fin du programme " << endl;
