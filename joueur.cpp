@@ -15,7 +15,7 @@ void Joueur::Init(int i)
 {
     string a;
     id = i;
-    cout << "Joueur " << id <<",comment vous appelez-vous ? : ";
+    cout << "Joueur " << id <<", comment vous appelez-vous ? : ";
     cin >> a;
     setPrenom(a);
     setArgent(1500);
