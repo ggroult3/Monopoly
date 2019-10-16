@@ -22,11 +22,34 @@ Jeu::Jeu():
 
 void Jeu::Print()
 {
-    cout << "Position du Joueur 1 sur 50 tours" << endl << endl;
+    cout << "Position du Joueur " << j1.getId() << " sur 50 tours" << endl << endl;
     for (int i = 0 ; i < 100 ; i++)
     {
+        string nomDeLaCase;
         deplacerJoueur(j1);
-        cout << "Le joueur 1 se trouve sur la case " << j1.getPosition() << endl << endl;
+        switch (j1.getPosition())
+        {
+            case 0 :
+                nomDeLaCase = "Case Depart";
+                break;
+            case 10 :
+                nomDeLaCase = "Visite en Prison";
+                break;
+            case 20 :
+                nomDeLaCase = "Parc Gratuit";
+                break;
+            case 30 :
+                nomDeLaCase = "Allez en Prison";
+                break;
+            case -1 :
+                nomDeLaCase = "Prison";
+                break;
+            default :
+                nomDeLaCase = to_string(j1.getPosition());
+                break;
+
+        }
+        cout << j1.getPrenom() << " se trouve sur la case " << nomDeLaCase << endl << endl;
     }
 }
 
@@ -79,7 +102,6 @@ void Jeu::deplacerJoueur(Joueur &player)
             }
             return;
         }
-
     }
 
     // Cas normal
@@ -90,7 +112,7 @@ void Jeu::deplacerJoueur(Joueur &player)
     {
         newPosition = newPosition - 40;
         player.setArgent(player.getArgent() + 200);
-        cout << "Le joueur " << player.getId() << " touche 200 euros. Il a maintenant " << player.getArgent() << " euros sur son compte." << endl;
+        cout << player.getPrenom() << " touche 200 euros. Il a maintenant " << player.getArgent() << " euros sur son compte." << endl;
     }
     player.setPosition(newPosition);
     if (newPosition == 30)
